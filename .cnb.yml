@@ -1,6 +1,6 @@
 main:
   push:
-    - imports: https://cnb.cool/dsheep/-/blob/main/envs.yml
+    - imports: https://cnb.cool/dsheep/edgeone-blob/-/blob/main/envs.yaml
       stages:
         - name: Build
           image: node:20
