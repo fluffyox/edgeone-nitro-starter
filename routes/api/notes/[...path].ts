@@ -1,5 +1,5 @@
 import { defineHandler } from "nitro";
-import { getStore } from "@edgeone/pages-blob";
+import { getStore } from "../../../utils/blob.js";
 
 // GET /api/notes/folder/xxx.md — 读取单个笔记内容
 

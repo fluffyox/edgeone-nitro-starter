@@ -1,5 +1,5 @@
 {
   "devCommand": "npx nitro dev",
-  "buildCommand": "NITRO_PRESET=edgeone-pages npx nitro build && sh scripts/postbuild.sh",
+  "buildCommand": "NITRO_PRESET=edgeone-pages npx nitro build",
   "outputDirectory": ".edgeone"
 }
