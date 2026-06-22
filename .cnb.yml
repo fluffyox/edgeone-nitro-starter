@@ -1,0 +1,10 @@
+main:
+  push:
+    - imports: https://cnb.cool/dsheep/-/blob/main/envs.yml
+      stages:
+        - name: Build
+          image: node:20
+          script: npm install && NITRO_PRESET=edgeone-pages npx nitro build
+        - name: Deploy to EdgeOne Makers
+          image: node:20
+          script: npx edgeone makers deploy .edgeone -n edgeone-nitro-starter -t $EDGEONE_API_TOKEN
