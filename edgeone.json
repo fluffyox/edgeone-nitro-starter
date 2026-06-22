@@ -1,5 +1,5 @@
 {
   "devCommand": "npx nitro dev",
-  "buildCommand": "NITRO_PRESET=edgeone-pages npx nitro build",
+  "buildCommand": "NITRO_PRESET=edgeone-pages npx nitro build && mkdir -p .edgeone/cloud-functions/ssr-node/node_modules/@edgeone && cp -r node_modules/@edgeone/pages-blob .edgeone/cloud-functions/ssr-node/node_modules/@edgeone/pages-blob",
   "outputDirectory": ".edgeone"
 }

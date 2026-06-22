@@ -1,5 +1,5 @@
 import { defineHandler } from "nitro";
-import { getStore } from "../../../utils/blob.js";
+import { getStore } from "@edgeone/pages-blob";
 
 // DELETE /api/notes — 删除笔记 { path: "xxx.md" }
 

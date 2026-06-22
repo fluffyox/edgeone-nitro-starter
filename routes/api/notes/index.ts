@@ -1,5 +1,5 @@
 import { defineHandler } from "nitro";
-import { getStore } from "../../../utils/blob.js";
+import { getStore } from "@edgeone/pages-blob";
 
 // GET /api/notes?path=folder/ — 列出文件和文件夹
 

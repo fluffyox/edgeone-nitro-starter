@@ -1,5 +1,5 @@
 import { defineHandler } from "nitro";
-import { getStore } from "../../../utils/blob.js";
+import { getStore } from "@edgeone/pages-blob";
 
 // POST /api/notes — 创建/更新笔记 { path: "xxx.md", content: "..." }
 
