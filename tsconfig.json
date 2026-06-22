@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "nitro": ["./node_modules/nitro"],
+      "nitro/*": ["./node_modules/nitro/*"]
+    }
+  },
+  "include": ["nitro.config.ts", "routes/**/*.ts", "middleware/**/*.ts", "utils/**/*.ts"]
+}

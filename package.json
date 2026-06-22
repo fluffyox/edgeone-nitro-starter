@@ -1,0 +1,18 @@
+{
+  "name": "edgeone-nitro-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nitro build",
+    "preview": "node .output/server/index.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@edgeone/pages-blob": "^0.0.12",
+    "nitro": "^3.0.260610-beta"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "^5.8.0"
+  }
+}

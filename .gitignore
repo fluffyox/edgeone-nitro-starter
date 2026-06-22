@@ -1,0 +1,8 @@
+node_modules
+.output
+.edgeone
+.edgeone/*
+.tef_dist/*
+.env
+.nitro
+dist
